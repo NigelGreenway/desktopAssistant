@@ -8,6 +8,20 @@ If you are a linux user install the [say](https://askubuntu.com/questions/501910
 sudo apt-get install gnustep-gui-runtime
 ```
 
+### Running under Solus
+
+When using [Solus](https://getsol.us/home) you will need these packages:
+
+```shell
+[sudo] eopkg install -y python3-devel portaudio-devel
+```
+
+You will also need to use `python3` instead of `python`. For example:
+
+```shell
+python3 desktopAssistant.py
+```
+
 ```bash
 pip2 install -r requirements.txt
 pip3 install -r requirements.txt
